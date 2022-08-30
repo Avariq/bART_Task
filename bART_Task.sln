@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bART_Task", "bART_Task\bART_Task.csproj", "{AD6BFC95-0476-4CB2-BA5E-E33C356366FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bART_Task.API", "bART_Task\bART_Task.API.csproj", "{AD6BFC95-0476-4CB2-BA5E-E33C356366FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bART_Task.Domain", "bART_Task.Domain\bART_Task.Domain.csproj", "{63C2DABC-29DF-4D66-9C58-8F15CA736BD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{AD6BFC95-0476-4CB2-BA5E-E33C356366FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD6BFC95-0476-4CB2-BA5E-E33C356366FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD6BFC95-0476-4CB2-BA5E-E33C356366FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C2DABC-29DF-4D66-9C58-8F15CA736BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C2DABC-29DF-4D66-9C58-8F15CA736BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C2DABC-29DF-4D66-9C58-8F15CA736BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C2DABC-29DF-4D66-9C58-8F15CA736BD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
