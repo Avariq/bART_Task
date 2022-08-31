@@ -16,8 +16,8 @@ namespace bART_Task.Domain.Models
         [EmailAddress]
         public string Email { get; set; }
 
-        public int AccountId { get; set; }
+        public int? AccountId { get; set; }
 
-        public virtual Account Account { get; set; }
+        public virtual Account? Account { get; set; }
     }
 }

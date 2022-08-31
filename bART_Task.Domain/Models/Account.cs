@@ -10,10 +10,10 @@ namespace bART_Task.Domain.Models
         [Required]
         public string Name { get; set; }
 
-        public string IncidentName { get; set; }
+        public string? IncidentName { get; set; }
 
-        public virtual Incident Incident { get; set; }
+        public virtual Incident? Incident { get; set; }
 
-        public virtual ICollection<Contact> Contacts { get; set; }
+        public virtual ICollection<Contact>? Contacts { get; set; }
     }
 }

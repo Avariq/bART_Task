@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using bART_Task.Domain;
 
@@ -11,9 +12,10 @@ using bART_Task.Domain;
 namespace bART_Task.Domain.Migrations
 {
     [DbContext(typeof(bARTDBContext))]
-    partial class bARTDBContextModelSnapshot : ModelSnapshot
+    [Migration("20220831114733_EditedModelReferences")]
+    partial class EditedModelReferences
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
