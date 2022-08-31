@@ -16,11 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\bART_Task.Domain\bART_Task.Domain.csproj" />
+    <ProjectReference Include="..\bART_Task.Services\bART_Task.Services.csproj" />
   </ItemGroup>
 
 </Project>

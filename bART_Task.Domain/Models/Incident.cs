@@ -12,6 +12,6 @@ namespace bART_Task.Domain.Models
         [Required]
         public string Description { get; set; }
 
-        public virtual ICollection<Account> Accounts { get; set; }
+        public virtual ICollection<Account>? Accounts { get; set; }
     }
 }
